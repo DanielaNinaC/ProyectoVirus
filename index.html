@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>malware- iphone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="introScreen" class="intro-screen" aria-live="polite">
+      <div class="intro-box">
+        <p class="intro-alert">ALERTA CRITICA :: SECURITY BREACH</p>
+        <h2>Inyeccion de virus detectada</h2>
+        <p class="intro-sub">Archivo peligroso: asqwdftyasef.exe</p>
+        <ul class="virus-log" aria-hidden="true">
+          <li>[!] Escaneando sistema emocional...</li>
+          <li>[!] Acceso no autorizado al corazón...</li>
+          <li>[!] Estado: ...</li>
+        </ul>
+        <p class="status-strip">Desactivando Firewall ...</p>
+        <button id="startPrank" class="intro-btn">Click aqui para detener ataque</button>
+      </div>
+    </section>
+
+    <div class="background-blobs" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="blob blob-3"></span>
+    </div>
+
+    <main id="mainCard" class="card hidden-main" aria-hidden="true">
+      <p id="surpriseText" class="surprise-text hidden">Sorpresa</p>
+      <p class="tag">Para mi Santi bebé</p>
+      <h1>Mi amor, esta carta es para ti</h1>
+      <p class="intro">
+        Espero pasar mucho más tiempo a tu lado , esta carta es 
+        por nuestro aniversario espero de aquí en adelante sea un día 
+        especial muy especial para ambos.
+        Si estás leyendo esto, recuerda: te amo con toda mi alma.
+        Mi vida ya no seas tan renegon ni celoso si? nos falta muchas cosas por hacer juntos
+        hasta casarnos ,muah.
+      </p>
+
+      <section class="envelope-section" aria-labelledby="sobre-title">
+        <h2 id="sobre-title">Abre el sobre</h2>
+        <button id="openEnvelope" class="envelope" aria-expanded="false">
+          <span class="flap"></span>
+          <span class="paper">Tócame ♡</span>
+        </button>
+
+        <article id="letter" class="letter hidden" aria-live="polite">
+          <p>
+            Bueno amorcito de mi vida paso a decirte FELIZ MES ANIVERSARIO cumplimos 6 mesistos
+            me alegra mucho estar a tu lado. 
+            Gracias por cuidarme, por hacerme reír, y por ser mi lugar seguro.
+            Eres mi persona favorita en todo este mundo.
+          </p>
+          <p>
+            Prometo seguir construyendo momentos bonitos contigo, de la mano,
+            en las buenas, en las difíciles y en todas las aventuras.
+          </p>
+          <p class="signature">Con amor infinito, tu novia ✿</p>
+        </article>
+      </section>
+
+      <section class="interactive" aria-labelledby="sorpresas-title">
+        <h2 id="sorpresas-title">Pequeñas sorpresas</h2>
+        <p>Haz click para ver razones por las que te amo:</p>
+        <button id="loveBtn" class="pill">Dame una razón bonita</button>
+        <p id="loveMessage" class="message" aria-live="polite"></p>
+      </section>
+
+      <footer>
+        <p>atte: C.N.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
